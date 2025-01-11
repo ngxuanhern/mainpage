@@ -3,6 +3,7 @@ import { GiFlowerPot } from "react-icons/gi";
 import { CiShoppingCart, CiUser } from "react-icons/ci";
 import { GiHamburgerMenu } from "react-icons/gi";
 import ResponsiveMenu from "./ResponsiveMenu";
+import { motion } from "framer-motion";
 const NavbarMenu = [
   {
     id: 1,
@@ -26,7 +27,9 @@ const Navbar = () => {
   return (
     <>
     <nav>
-      <div className="container flex justify-between items-center py-4 md:pt-4">
+      <div 
+      
+      className="container flex justify-between items-center py-4 md:pt-4">
         {/* Logo section */}
         <div className="text-2xl flex items-center gap-2 font-bold uppercase">
           <p className="text-primary">Single</p>
